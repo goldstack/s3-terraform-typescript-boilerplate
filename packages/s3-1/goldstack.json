@@ -1,0 +1,18 @@
+{
+  "$schema": "./schemas/package.schema.json",
+  "name": "s3-1",
+  "template": "s3",
+  "templateVersion": "0.1.0",
+  "configuration": {},
+  "deployments": [
+    {
+      "name": "prod",
+      "awsUser": "goldstack-dev",
+      "awsRegion": "us-west-2",
+      "configuration": {
+        "bucketName": "goldstack-ci-test-s3-1650746322213"
+      },
+      "tfStateKey": "s3-1-prod-7cfd922ddedb193d1eba.tfstate"
+    }
+  ]
+}
