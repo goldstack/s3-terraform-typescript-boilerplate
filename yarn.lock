@@ -698,31 +698,46 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-s3@npm:0.3.98":
-  version: 0.3.98
-  resolution: "@goldstack/template-s3@npm:0.3.98"
+"@goldstack/template-s3-cli@npm:0.4.1":
+  version: 0.4.1
+  resolution: "@goldstack/template-s3-cli@npm:0.4.1"
   dependencies:
-    "@goldstack/infra": 0.3.36
-    "@goldstack/infra-aws": 0.3.44
+    "@goldstack/template-s3": 0.3.99
     "@goldstack/utils-cli": 0.2.13
-    "@goldstack/utils-config": 0.3.33
     "@goldstack/utils-docker": 0.3.38
     "@goldstack/utils-log": 0.2.14
     "@goldstack/utils-package": 0.3.38
-    "@goldstack/utils-package-config": 0.3.38
+    "@goldstack/utils-package-config": 0.3.39
     "@goldstack/utils-s3-deployment": 0.3.55
     "@goldstack/utils-sh": 0.4.31
     "@goldstack/utils-template": 0.3.35
     "@goldstack/utils-terraform": 0.3.68
     "@goldstack/utils-terraform-aws": 0.3.67
     aws-sdk: 2.1055.0
-    mock-aws-s3: ^4.0.2
     source-map-support: ^0.5.21
     yargs: ^15.4.1
   bin:
     template: ./bin/template
     template-s3: ./bin/template
-  checksum: 7be849d7816fe3847e86692ed0f05a9430160b28793b01e63abe90c255060fcc53526b6076d9d371a7467a1ffef0617f9e7faa67d4301dc83b554eb66736626e
+  checksum: 5068d687329b599b93a29220f049739ac8d5a91d09ce6b2c70054f34d667c4945b85330ed48ced75ae6b574a51fa3fea068fb661ad76c193703ef4e9bef7216d
+  languageName: node
+  linkType: hard
+
+"@goldstack/template-s3@npm:0.3.99":
+  version: 0.3.99
+  resolution: "@goldstack/template-s3@npm:0.3.99"
+  dependencies:
+    "@goldstack/infra": 0.3.36
+    "@goldstack/infra-aws": 0.3.44
+    "@goldstack/utils-esbuild": 0.4.1
+    "@goldstack/utils-package": 0.3.38
+    "@goldstack/utils-package-config-embedded": 0.4.1
+    "@goldstack/utils-template": 0.3.35
+    "@goldstack/utils-terraform": 0.3.68
+    aws-sdk: 2.1055.0
+    mock-aws-s3: ^4.0.2
+    source-map-support: ^0.5.21
+  checksum: 80669017fc36d2de3de0742ae8e0dcbba7124ddd25a5064dbaf01a55fce3cd6754f2efdc399747af507eaf31647f3cf5e38c24d9ca3a2643ae676de5a0b30f21
   languageName: node
   linkType: hard
 
@@ -767,6 +782,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@goldstack/utils-esbuild@npm:0.4.1":
+  version: 0.4.1
+  resolution: "@goldstack/utils-esbuild@npm:0.4.1"
+  checksum: 6fb974b2eb94972a45aa7d3582e4e383223a7b91b5e0fcb86c1211557b825e1263ab45f4ffe951cffeaa4935d7e2bcb459b4c3b1f06c48f40d2e41680acc167f
+  languageName: node
+  linkType: hard
+
 "@goldstack/utils-log@npm:0.2.14":
   version: 0.2.14
   resolution: "@goldstack/utils-log@npm:0.2.14"
@@ -774,16 +796,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-package-config@npm:0.3.38":
-  version: 0.3.38
-  resolution: "@goldstack/utils-package-config@npm:0.3.38"
+"@goldstack/utils-package-config-embedded@npm:0.4.1":
+  version: 0.4.1
+  resolution: "@goldstack/utils-package-config-embedded@npm:0.4.1"
+  dependencies:
+    "@goldstack/infra": 0.3.36
+    "@goldstack/utils-config": 0.3.33
+    "@goldstack/utils-package": 0.3.38
+  checksum: 2a69300b4deea5f4b186ad4e1e8e1c9918e5f3845a11d627279e3a71428d04829178582e79778ac827162820a07d5ca9b627406c131e8fa8aab0efe52e2b37c2
+  languageName: node
+  linkType: hard
+
+"@goldstack/utils-package-config@npm:0.3.39":
+  version: 0.3.39
+  resolution: "@goldstack/utils-package-config@npm:0.3.39"
   dependencies:
     "@goldstack/infra": 0.3.36
     "@goldstack/utils-config": 0.3.33
     "@goldstack/utils-package": 0.3.38
     "@goldstack/utils-sh": 0.4.31
-    yargs: ^15.4.1
-  checksum: 50464a41a146826053d3e9cd509c232a33d662477f40fb931c7a0ae6b8c783464345e80f735d3d8095f760616c128835823e75ee430496c065f3b48854e0ac30
+  checksum: 2db0b894758392e04a56fc2549c653ec8868fafdd9c3477dbee8f0aa8ddce7b89e39455e5fb81ca305b15f226f9eef34cbb047099d6ab99b0d2e832a5df6c518
   languageName: node
   linkType: hard
 
@@ -6419,7 +6451,8 @@ resolve@^1.20.0:
   version: 0.0.0-use.local
   resolution: "s3-1@workspace:packages/s3-1"
   dependencies:
-    "@goldstack/template-s3": 0.3.98
+    "@goldstack/template-s3": 0.3.99
+    "@goldstack/template-s3-cli": 0.4.1
     "@types/jest": ^27.5.1
     "@types/node": ^17.0.33
     aws-sdk: 2.1055.0
