@@ -691,11 +691,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-s3-cli@npm:0.4.7":
-  version: 0.4.7
-  resolution: "@goldstack/template-s3-cli@npm:0.4.7"
+"@goldstack/template-s3-cli@npm:0.4.8":
+  version: 0.4.8
+  resolution: "@goldstack/template-s3-cli@npm:0.4.8"
   dependencies:
-    "@goldstack/template-s3": 0.3.103
+    "@goldstack/template-s3": 0.3.104
     "@goldstack/utils-cli": 0.2.15
     "@goldstack/utils-docker": 0.3.40
     "@goldstack/utils-log": 0.2.16
@@ -712,13 +712,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-s3: ./bin/template
-  checksum: f5c027aeaf4ebee67316aef91a9a71f27c6383d9eae8d6bbc979afe9d794051f278798160292e87fbaca161bbc741a72510d070ef802901bfd5f35fc32387658
+  checksum: 8d815d66eb93b4da85f5c4adca92e3f9a1c84c3635bbeed413a8ac108390abd4e6e03417f7fecf9f71621744e1dc62f61ce597bd6e24af2c81bf114defe39d24
   languageName: node
   linkType: hard
 
-"@goldstack/template-s3@npm:0.3.103":
-  version: 0.3.103
-  resolution: "@goldstack/template-s3@npm:0.3.103"
+"@goldstack/template-s3@npm:0.3.104":
+  version: 0.3.104
+  resolution: "@goldstack/template-s3@npm:0.3.104"
   dependencies:
     "@goldstack/infra": 0.3.38
     "@goldstack/infra-aws": 0.3.47
@@ -730,7 +730,7 @@ __metadata:
     aws-sdk: 2.1055.0
     mock-aws-s3: ^4.0.2
     source-map-support: ^0.5.21
-  checksum: 17cffdabe8c51c6793955ad48321d3760077f6622255ce99d505fec51d345028cc1a75db6912f4fa705bc92d6ef397ef3b6b2536c6e3e9360c94162b9b279bce
+  checksum: 813535a18dd3097bbca1e4ad41c2ca378e54680562f5e10f828e8915180e899e793b64a0022f509033d5b892dccc6a1e9cab8f149ee78aed4c2381673e2f9535
   languageName: node
   linkType: hard
 
@@ -6429,15 +6429,15 @@ resolve@^1.20.0:
   version: 0.0.0-use.local
   resolution: "s3-1@workspace:packages/s3-1"
   dependencies:
-    "@goldstack/template-s3": 0.3.103
-    "@goldstack/template-s3-cli": 0.4.7
+    "@goldstack/template-s3": 0.3.104
+    "@goldstack/template-s3-cli": 0.4.8
     "@types/jest": ^27.5.1
     "@types/node": ^17.0.33
     aws-sdk: 2.1055.0
     jest: ^28.1.0
     rimraf: ^3.0.2
     ts-jest: ^28.0.2
-    ts-node: ^10.8.0
+    ts-node: ^10.9.1
     typescript: ^4.7.4
   languageName: unknown
   linkType: soft
@@ -7127,9 +7127,9 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^10.8.0":
-  version: 10.8.0
-  resolution: "ts-node@npm:10.8.0"
+"ts-node@npm:^10.9.1":
+  version: 10.9.1
+  resolution: "ts-node@npm:10.9.1"
   dependencies:
     "@cspotcode/source-map-support": ^0.8.0
     "@tsconfig/node10": ^1.0.7
@@ -7161,7 +7161,7 @@ resolve@^1.20.0:
     ts-node-script: dist/bin-script.js
     ts-node-transpile-only: dist/bin-transpile.js
     ts-script: dist/bin-script-deprecated.js
-  checksum: 1c22dc8dd80d0ba4dd4250b82cc032b63f6fbe8c87f8197cef43e7f9e2d43f5b333b445ed712e3006e24119257b4bff2c46605f7da61ab6f5e9514885d296f0c
+  checksum: 090adff1302ab20bd3486e6b4799e90f97726ed39e02b39e566f8ab674fd5bd5f727f43615debbfc580d33c6d9d1c6b1b3ce7d8e3cca3e20530a145ffa232c35
   languageName: node
   linkType: hard
 
