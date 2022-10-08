@@ -5,12 +5,12 @@
       "bucket_arn": {
         "sensitive": false,
         "type": "string",
-        "value": "arn:aws:s3:::goldstack-ci-test-s3-1665180296023"
+        "value": "arn:aws:s3:::goldstack-ci-test-s3-1665262205169"
       },
       "bucket_name": {
         "sensitive": false,
         "type": "string",
-        "value": "goldstack-ci-test-s3-1665180296023"
+        "value": "goldstack-ci-test-s3-1665262205169"
       }
     }
   }
