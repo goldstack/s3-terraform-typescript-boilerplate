@@ -691,9 +691,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-s3-cli@npm:0.6.7":
-  version: 0.6.7
-  resolution: "@goldstack/template-s3-cli@npm:0.6.7"
+"@goldstack/template-s3-cli@npm:0.6.8":
+  version: 0.6.8
+  resolution: "@goldstack/template-s3-cli@npm:0.6.8"
   dependencies:
     "@goldstack/template-s3": 0.4.7
     "@goldstack/utils-cli": 0.3.4
@@ -701,7 +701,7 @@ __metadata:
     "@goldstack/utils-log": 0.3.4
     "@goldstack/utils-package": 0.4.4
     "@goldstack/utils-package-config": 0.4.4
-    "@goldstack/utils-s3-deployment": 0.5.7
+    "@goldstack/utils-s3-deployment": 0.5.8
     "@goldstack/utils-sh": 0.5.4
     "@goldstack/utils-template": 0.4.4
     "@goldstack/utils-terraform": 0.4.7
@@ -712,7 +712,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-s3: ./bin/template
-  checksum: baaee6fcffd3028479473242ff2dc584b39a84922c6118696f552beaac5a3b780779731ade3f1f713c9f823e65db97d1243f8c33084a0596422e961513145203
+  checksum: 1bdd7079b94612efc91d8f756625fc45a7c5c185038f490b8204d891f22d993567958a4ce0c542734bff465f72326dee092dc46c981fef825801da959b347773
   languageName: node
   linkType: hard
 
@@ -824,15 +824,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-s3-deployment@npm:0.5.7":
-  version: 0.5.7
-  resolution: "@goldstack/utils-s3-deployment@npm:0.5.7"
+"@goldstack/utils-s3-deployment@npm:0.5.8":
+  version: 0.5.8
+  resolution: "@goldstack/utils-s3-deployment@npm:0.5.8"
   dependencies:
     "@goldstack/infra-aws": 0.4.7
     "@goldstack/utils-aws-cli": 0.4.7
     "@goldstack/utils-docker": 0.4.4
     "@goldstack/utils-sh": 0.5.4
-  checksum: 87c88bc6adf801c98708e9374eb4ec7283bf0eb4dc9969f5200105b2ce087f6e9cc009ceb87ebc643e89439f92b6ffc73877ca4398649cbb468fbc3596a8a7ed
+  checksum: 05e849da77914f76b70eb508462d209fc657cf2d9d8a333f48bc6f22cb339c45f01fb26ed66822e360332931fee512d9cd43e3e50b9b878933ad331196181eb2
   languageName: node
   linkType: hard
 
@@ -6757,7 +6757,7 @@ resolve@^1.20.0:
   resolution: "s3-1@workspace:packages/s3-1"
   dependencies:
     "@goldstack/template-s3": 0.4.7
-    "@goldstack/template-s3-cli": 0.6.7
+    "@goldstack/template-s3-cli": 0.6.8
     "@types/jest": ^29.0.1
     "@types/node": ^18.7.13
     aws-sdk: ^2.1222.0
