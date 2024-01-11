@@ -1332,9 +1332,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-s3-cli@npm:0.6.17":
-  version: 0.6.17
-  resolution: "@goldstack/template-s3-cli@npm:0.6.17"
+"@goldstack/template-s3-cli@npm:0.6.18":
+  version: 0.6.18
+  resolution: "@goldstack/template-s3-cli@npm:0.6.18"
   dependencies:
     "@goldstack/template-s3": "npm:0.4.16"
     "@goldstack/utils-cli": "npm:0.3.9"
@@ -1346,14 +1346,14 @@ __metadata:
     "@goldstack/utils-sh": "npm:0.5.9"
     "@goldstack/utils-template": "npm:0.4.9"
     "@goldstack/utils-terraform": "npm:0.4.15"
-    "@goldstack/utils-terraform-aws": "npm:0.4.15"
+    "@goldstack/utils-terraform-aws": "npm:0.4.16"
     aws-sdk: "npm:2.1525.0"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17.5.1"
   bin:
     template: ./bin/template
     template-s3: ./bin/template
-  checksum: b7e8da39289523b2dd0b25a4e5ff2051f9af4342d6df05b5e59a2e4ca36de4c1ea2ccdd1e4733e737988527f1c3dc2a01875a11cead9596fc99be8584d7f2b1b
+  checksum: 913a538ece00e426797145db9daef90aa0c60f118379e3d759ac22713a2385a836ddcc089ba39211c930740b32d5306b563d0e7dd07b7580397aa8844b5866dd
   languageName: node
   linkType: hard
 
@@ -1503,9 +1503,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform-aws@npm:0.4.15":
-  version: 0.4.15
-  resolution: "@goldstack/utils-terraform-aws@npm:0.4.15"
+"@goldstack/utils-terraform-aws@npm:0.4.16":
+  version: 0.4.16
+  resolution: "@goldstack/utils-terraform-aws@npm:0.4.16"
   dependencies:
     "@aws-sdk/types": "npm:^3.468.0"
     "@goldstack/infra-aws": "npm:0.4.14"
@@ -1515,7 +1515,7 @@ __metadata:
     "@goldstack/utils-sh": "npm:0.5.9"
     "@goldstack/utils-terraform": "npm:0.4.15"
     aws-sdk: "npm:2.1525.0"
-  checksum: 64fc1a9ae4fd9bce7a4a45c92aac1cc022bea49aa22e9b29f50d145ee09b30e59598225248ad415f850f7fa76b4d59bb309c0ffbfaf2e20352ec7f89601c7cb6
+  checksum: be0fae2df96567508163981d03fa39410785e63ccf54266b9bab788efb4b4fcce1cfec834509710fcae468ce9b3c758ec7aac9b8a10a0462d6e5fba650792288
   languageName: node
   linkType: hard
 
@@ -7744,7 +7744,7 @@ __metadata:
   resolution: "s3-1@workspace:packages/s3-1"
   dependencies:
     "@goldstack/template-s3": "npm:0.4.16"
-    "@goldstack/template-s3-cli": "npm:0.6.17"
+    "@goldstack/template-s3-cli": "npm:0.6.18"
     "@swc/core": "npm:^1.3.74"
     "@swc/jest": "npm:^0.2.27"
     "@types/jest": "npm:^29.0.1"

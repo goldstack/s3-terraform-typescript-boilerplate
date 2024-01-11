@@ -1813,10 +1813,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-s3-cli", [\
-      ["npm:0.6.17", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-s3-cli-npm-0.6.17-371b6e911a-b7e8da3928.zip/node_modules/@goldstack/template-s3-cli/",\
+      ["npm:0.6.18", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-s3-cli-npm-0.6.18-c7805abcc8-913a538ece.zip/node_modules/@goldstack/template-s3-cli/",\
         "packageDependencies": [\
-          ["@goldstack/template-s3-cli", "npm:0.6.17"],\
+          ["@goldstack/template-s3-cli", "npm:0.6.18"],\
           ["@goldstack/template-s3", "npm:0.4.16"],\
           ["@goldstack/utils-cli", "npm:0.3.9"],\
           ["@goldstack/utils-docker", "npm:0.4.10"],\
@@ -1827,7 +1827,7 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-sh", "npm:0.5.9"],\
           ["@goldstack/utils-template", "npm:0.4.9"],\
           ["@goldstack/utils-terraform", "npm:0.4.15"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.15"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.16"],\
           ["aws-sdk", "npm:2.1525.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["yargs", "npm:17.5.1"]\
@@ -1997,10 +1997,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform-aws", [\
-      ["npm:0.4.15", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.15-092d449e63-64fc1a9ae4.zip/node_modules/@goldstack/utils-terraform-aws/",\
+      ["npm:0.4.16", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.16-cd926db60d-be0fae2df9.zip/node_modules/@goldstack/utils-terraform-aws/",\
         "packageDependencies": [\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.15"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.16"],\
           ["@aws-sdk/types", "npm:3.468.0"],\
           ["@goldstack/infra-aws", "npm:0.4.14"],\
           ["@goldstack/utils-config", "npm:0.4.9"],\
@@ -9096,7 +9096,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["s3-1", "workspace:packages/s3-1"],\
           ["@goldstack/template-s3", "npm:0.4.16"],\
-          ["@goldstack/template-s3-cli", "npm:0.6.17"],\
+          ["@goldstack/template-s3-cli", "npm:0.6.18"],\
           ["@swc/core", "virtual:153a6ee2540420d11dedf703e54be098fa7be1fd17e2289d59fc0fd5f39ca53b37c2ee24d1d5fd8126a1c888b007d44997dc2c14edfef07345a62a9a8c61f52e#npm:1.3.74"],\
           ["@swc/jest", "virtual:153a6ee2540420d11dedf703e54be098fa7be1fd17e2289d59fc0fd5f39ca53b37c2ee24d1d5fd8126a1c888b007d44997dc2c14edfef07345a62a9a8c61f52e#npm:0.2.27"],\
           ["@types/jest", "npm:29.0.1"],\
