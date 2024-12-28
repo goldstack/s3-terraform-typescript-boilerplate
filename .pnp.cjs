@@ -33,7 +33,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@goldstack/nodemonx", "npm:0.4.21"],\
-          ["@goldstack/utils-typescript-references", "npm:0.3.12"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.13"],\
           ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:22.10.2"],\
           ["@typescript-eslint/eslint-plugin", "virtual:2fa7ecb53e4c9f908f7518ad35c21efe05fcec1e1cfae890f438d048df7425f08ab66fed6d581c2043548db0e2c38939049b3c0bb956c795c3cb387297f67f9a#npm:5.42.1"],\
@@ -3332,10 +3332,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-typescript-references", [\
-      ["npm:0.3.12", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-typescript-references-npm-0.3.12-e4fc97f991-e81a7fc2f2.zip/node_modules/@goldstack/utils-typescript-references/",\
+      ["npm:0.3.13", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-typescript-references-npm-0.3.13-490b1e9794-74dfa118db.zip/node_modules/@goldstack/utils-typescript-references/",\
         "packageDependencies": [\
-          ["@goldstack/utils-typescript-references", "npm:0.3.12"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.13"],\
+          ["@goldstack/utils-log", "npm:0.3.18"],\
           ["source-map-support", "npm:0.5.21"],\
           ["yargs", "npm:17.5.1"]\
         ],\
@@ -11067,7 +11068,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["project-s3", "workspace:."],\
           ["@goldstack/nodemonx", "npm:0.4.21"],\
-          ["@goldstack/utils-typescript-references", "npm:0.3.12"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.13"],\
           ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:22.10.2"],\
           ["@typescript-eslint/eslint-plugin", "virtual:2fa7ecb53e4c9f908f7518ad35c21efe05fcec1e1cfae890f438d048df7425f08ab66fed6d581c2043548db0e2c38939049b3c0bb956c795c3cb387297f67f9a#npm:5.42.1"],\
