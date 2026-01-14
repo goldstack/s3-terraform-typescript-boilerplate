@@ -3175,8 +3175,8 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-s3", [\
-      ["npm:0.5.61", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-s3-npm-0.5.61-ad4f42f86a-6cc0a88604.zip/node_modules/@goldstack/template-s3/",\
+      ["npm:0.5.62", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-s3-npm-0.5.62-39ca34c44a-374ceb4788.zip/node_modules/@goldstack/template-s3/",\
         "packageDependencies": [\
           ["@aws-sdk/client-s3", "npm:3.958.0"],\
           ["@aws-sdk/credential-providers", "npm:3.958.0"],\
@@ -3184,7 +3184,7 @@ const RAW_RUNTIME_STATE =
           ["@aws-sdk/types", "npm:3.957.0"],\
           ["@goldstack/infra", "npm:0.4.37"],\
           ["@goldstack/infra-aws", "npm:0.4.55"],\
-          ["@goldstack/template-s3", "npm:0.5.61"],\
+          ["@goldstack/template-s3", "npm:0.5.62"],\
           ["@goldstack/utils-esbuild", "npm:0.5.24"],\
           ["@goldstack/utils-log", "npm:0.3.31"],\
           ["@goldstack/utils-package", "npm:0.4.39"],\
@@ -3200,11 +3200,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-s3-cli", [\
-      ["npm:0.6.82", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-s3-cli-npm-0.6.82-3a51314c4a-95b6accee3.zip/node_modules/@goldstack/template-s3-cli/",\
+      ["npm:0.6.83", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-s3-cli-npm-0.6.83-e1981d055d-5593c5d366.zip/node_modules/@goldstack/template-s3-cli/",\
         "packageDependencies": [\
-          ["@goldstack/template-s3", "npm:0.5.61"],\
-          ["@goldstack/template-s3-cli", "npm:0.6.82"],\
+          ["@goldstack/template-s3", "npm:0.5.62"],\
+          ["@goldstack/template-s3-cli", "npm:0.6.83"],\
           ["@goldstack/utils-cli", "npm:0.3.29"],\
           ["@goldstack/utils-docker", "npm:0.4.38"],\
           ["@goldstack/utils-log", "npm:0.3.31"],\
@@ -10132,8 +10132,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/s3-1/",\
         "packageDependencies": [\
           ["@aws-sdk/client-s3", "npm:3.958.0"],\
-          ["@goldstack/template-s3", "npm:0.5.61"],\
-          ["@goldstack/template-s3-cli", "npm:0.6.82"],\
+          ["@goldstack/template-s3", "npm:0.5.62"],\
+          ["@goldstack/template-s3-cli", "npm:0.6.83"],\
           ["@smithy/smithy-client", "npm:4.10.2"],\
           ["@smithy/types", "npm:4.11.0"],\
           ["@swc/core", "virtual:153a6ee2540420d11dedf703e54be098fa7be1fd17e2289d59fc0fd5f39ca53b37c2ee24d1d5fd8126a1c888b007d44997dc2c14edfef07345a62a9a8c61f52e#npm:1.15.8"],\

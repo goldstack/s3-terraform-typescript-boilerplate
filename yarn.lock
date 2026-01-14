@@ -2555,11 +2555,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-s3-cli@npm:0.6.82":
-  version: 0.6.82
-  resolution: "@goldstack/template-s3-cli@npm:0.6.82"
+"@goldstack/template-s3-cli@npm:0.6.83":
+  version: 0.6.83
+  resolution: "@goldstack/template-s3-cli@npm:0.6.83"
   dependencies:
-    "@goldstack/template-s3": "npm:0.5.61"
+    "@goldstack/template-s3": "npm:0.5.62"
     "@goldstack/utils-cli": "npm:0.3.29"
     "@goldstack/utils-docker": "npm:0.4.38"
     "@goldstack/utils-log": "npm:0.3.31"
@@ -2575,13 +2575,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-s3: ./bin/template
-  checksum: 10/95b6accee339dd1c1aa7a77961a0ffea6fefa43bf76653e00896766a57fc7ad6844c2b11e9c36fbda0d7d5023efc50e7cc716dd289af1d48618c8d229d6dcdf9
+  checksum: 10/5593c5d3660b3ef179c9e8d3fa430cf293e191599cc63d22ba285d3d39136cc1936512e7e7041cd43d1b18722d7cdf7f7a523f174dc026b4873cc258bfb65549
   languageName: node
   linkType: hard
 
-"@goldstack/template-s3@npm:0.5.61":
-  version: 0.5.61
-  resolution: "@goldstack/template-s3@npm:0.5.61"
+"@goldstack/template-s3@npm:0.5.62":
+  version: 0.5.62
+  resolution: "@goldstack/template-s3@npm:0.5.62"
   dependencies:
     "@aws-sdk/client-s3": "npm:^3.958.0"
     "@aws-sdk/credential-providers": "npm:^3.958.0"
@@ -2599,7 +2599,7 @@ __metadata:
     "@smithy/types": "npm:^4.11.0"
     mock-aws-s3-v3: "npm:6.1.9"
     source-map-support: "npm:^0.5.21"
-  checksum: 10/6cc0a886042632cfc8ba95992753d3befc2aa90c877a7363ed5395edfd522bb536d1a748b85114d8922f388e3e948f00d8c4dee98862f52cd3d1dcd4c68146e9
+  checksum: 10/374ceb4788676a30635d95c7855b168d56f6e6b9edd3688b65c6c7853901d9c594725f0b49d8e56edf2bfdc3e4b2b676eb9e5a2ca4ea500c3f07ecaf6a48774e
   languageName: node
   linkType: hard
 
@@ -8812,8 +8812,8 @@ __metadata:
   resolution: "s3-1@workspace:packages/s3-1"
   dependencies:
     "@aws-sdk/client-s3": "npm:^3.958.0"
-    "@goldstack/template-s3": "npm:0.5.61"
-    "@goldstack/template-s3-cli": "npm:0.6.82"
+    "@goldstack/template-s3": "npm:0.5.62"
+    "@goldstack/template-s3-cli": "npm:0.6.83"
     "@smithy/smithy-client": "npm:^4.10.2"
     "@smithy/types": "npm:^4.11.0"
     "@swc/core": "npm:^1.15.8"
