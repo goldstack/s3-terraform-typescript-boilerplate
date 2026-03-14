@@ -10,9 +10,9 @@
       "awsUser": "goldstack-dev",
       "awsRegion": "us-west-2",
       "configuration": {
-        "bucketName": "goldstack-ci-test-s3-1773467525001"
+        "bucketName": "goldstack-ci-test-s3-1773483095981"
       },
-      "tfStateKey": "s3-1-prod-290c20689aac8e3131bb.tfstate"
+      "tfStateKey": "s3-1-prod-66972773d64ee6bc724c.tfstate"
     }
   ]
 }
