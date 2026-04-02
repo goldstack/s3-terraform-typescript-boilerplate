@@ -1744,9 +1744,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-s3-cli@npm:0.6.92":
-  version: 0.6.92
-  resolution: "@goldstack/template-s3-cli@npm:0.6.92"
+"@goldstack/template-s3-cli@npm:0.6.93":
+  version: 0.6.93
+  resolution: "@goldstack/template-s3-cli@npm:0.6.93"
   dependencies:
     "@goldstack/template-s3": "npm:0.5.70"
     "@goldstack/utils-cli": "npm:0.3.31"
@@ -1758,13 +1758,13 @@ __metadata:
     "@goldstack/utils-sh": "npm:0.5.38"
     "@goldstack/utils-template": "npm:0.4.41"
     "@goldstack/utils-terraform": "npm:0.4.77"
-    "@goldstack/utils-terraform-aws": "npm:0.4.81"
+    "@goldstack/utils-terraform-aws": "npm:0.4.82"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17"
   bin:
     template: ./bin/template
     template-s3: ./bin/template
-  checksum: 10/3582d82629176970c261457eca4f61498af26b1d2ce61691b203258c7bee0bfeca3f84cf8c41662b97a2c3ab568eb637667fedff798b9d63e9a04eb0ab56ad7d
+  checksum: 10/d6cf16d94b8361376ad7470260d1874991cad4d7d004cc41a18a4804a745e2acf3de9f4b7e659432b2b56f4d5ac25b726c7ce0ae0dc59a27565cf98b513f9d97
   languageName: node
   linkType: hard
 
@@ -1926,9 +1926,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform-aws@npm:0.4.81":
-  version: 0.4.81
-  resolution: "@goldstack/utils-terraform-aws@npm:0.4.81"
+"@goldstack/utils-terraform-aws@npm:0.4.82":
+  version: 0.4.82
+  resolution: "@goldstack/utils-terraform-aws@npm:0.4.82"
   dependencies:
     "@aws-sdk/client-dynamodb": "npm:^3.1004.0"
     "@aws-sdk/client-s3": "npm:^3.1004.0"
@@ -1940,7 +1940,7 @@ __metadata:
     "@goldstack/utils-package": "npm:0.4.42"
     "@goldstack/utils-sh": "npm:0.5.38"
     "@goldstack/utils-terraform": "npm:0.4.77"
-  checksum: 10/a21d334b26db86c5ad460e8b107025b4b57242678b1a684793573534c2605ef344c214a478f81c6d3a123589578eb10e8c9ff092284056ff81bc88fb5881acf3
+  checksum: 10/4270d994641be626773646cabee4e8ceb46222aa0bbff9d84bc4a38391caec8d1eae98acf169f6b3f59c1e73079699335769079c661f9404595cd0b917bf627d
   languageName: node
   linkType: hard
 
@@ -7189,7 +7189,7 @@ __metadata:
   dependencies:
     "@aws-sdk/client-s3": "npm:^3.1004.0"
     "@goldstack/template-s3": "npm:0.5.70"
-    "@goldstack/template-s3-cli": "npm:0.6.92"
+    "@goldstack/template-s3-cli": "npm:0.6.93"
     "@smithy/smithy-client": "npm:^4.12.3"
     "@smithy/types": "npm:^4.13.0"
     "@swc/core": "npm:^1.15.8"
