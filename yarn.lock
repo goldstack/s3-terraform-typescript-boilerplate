@@ -1744,11 +1744,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-s3-cli@npm:0.6.101":
-  version: 0.6.101
-  resolution: "@goldstack/template-s3-cli@npm:0.6.101"
+"@goldstack/template-s3-cli@npm:0.6.102":
+  version: 0.6.102
+  resolution: "@goldstack/template-s3-cli@npm:0.6.102"
   dependencies:
-    "@goldstack/template-s3": "npm:0.5.78"
+    "@goldstack/template-s3": "npm:0.5.79"
     "@goldstack/utils-cli": "npm:0.3.32"
     "@goldstack/utils-docker": "npm:0.4.41"
     "@goldstack/utils-log": "npm:0.3.34"
@@ -1757,20 +1757,20 @@ __metadata:
     "@goldstack/utils-s3-deployment": "npm:0.5.71"
     "@goldstack/utils-sh": "npm:0.5.39"
     "@goldstack/utils-template": "npm:0.4.42"
-    "@goldstack/utils-terraform": "npm:0.4.84"
-    "@goldstack/utils-terraform-aws": "npm:0.4.89"
+    "@goldstack/utils-terraform": "npm:0.4.85"
+    "@goldstack/utils-terraform-aws": "npm:0.4.90"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17"
   bin:
     template: ./bin/template
     template-s3: ./bin/template
-  checksum: 10/3c50060baff7492eb0ec75a70abfabfec0fb64155fdc1b339799d9dfa7613b6253e5fcfdfbfc319b9c0740df4c60696e12512dde4f3a8ee9ae146ae0e1d7a0f1
+  checksum: 10/946bc949e7f5c7e90dd5a1e34fff314568f3058fe6efd93013fed0cdf0429c30f222331a5e0fe07ac15b3f483474d6a074908c44a8cc596bc15957d4c9579fca
   languageName: node
   linkType: hard
 
-"@goldstack/template-s3@npm:0.5.78":
-  version: 0.5.78
-  resolution: "@goldstack/template-s3@npm:0.5.78"
+"@goldstack/template-s3@npm:0.5.79":
+  version: 0.5.79
+  resolution: "@goldstack/template-s3@npm:0.5.79"
   dependencies:
     "@aws-sdk/client-s3": "npm:^3.1004.0"
     "@aws-sdk/credential-providers": "npm:^3.1004.0"
@@ -1783,12 +1783,12 @@ __metadata:
     "@goldstack/utils-package": "npm:0.4.43"
     "@goldstack/utils-package-config-embedded": "npm:0.5.44"
     "@goldstack/utils-template": "npm:0.4.42"
-    "@goldstack/utils-terraform": "npm:0.4.84"
+    "@goldstack/utils-terraform": "npm:0.4.85"
     "@smithy/smithy-client": "npm:^4.12.3"
     "@smithy/types": "npm:^4.13.0"
     mock-aws-s3-v3: "npm:6.1.13"
     source-map-support: "npm:^0.5.21"
-  checksum: 10/836d9f31678096eca7112d13ef1dcb00b8bbaed278733f72e704201ae3ef07cde0b0084dae6f79c42ad078e96a763ffaa449c81717e5944b412c249d71bb82fc
+  checksum: 10/941ee213e1ed9a69e8019bc7b77a3218853ebc89c34d8097f402a921b8347d0f869541e03870131a4078bda163e0e41f8228cb28ec7d64e7f216e2a0de9e17fa
   languageName: node
   linkType: hard
 
@@ -1926,9 +1926,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform-aws@npm:0.4.89":
-  version: 0.4.89
-  resolution: "@goldstack/utils-terraform-aws@npm:0.4.89"
+"@goldstack/utils-terraform-aws@npm:0.4.90":
+  version: 0.4.90
+  resolution: "@goldstack/utils-terraform-aws@npm:0.4.90"
   dependencies:
     "@aws-sdk/client-dynamodb": "npm:^3.1004.0"
     "@aws-sdk/client-s3": "npm:^3.1004.0"
@@ -1939,14 +1939,14 @@ __metadata:
     "@goldstack/utils-log": "npm:0.3.34"
     "@goldstack/utils-package": "npm:0.4.43"
     "@goldstack/utils-sh": "npm:0.5.39"
-    "@goldstack/utils-terraform": "npm:0.4.84"
-  checksum: 10/e3ecb0d4e51f2939c1a03667bf7d22f2cd0919fc1464e439c8edad222db0e020b482527ae596ec77081e73f4e56ad90916da39264103492e0b7a00147f7dc202
+    "@goldstack/utils-terraform": "npm:0.4.85"
+  checksum: 10/d8acbe37ee0d3ab8106a1b361687e9b7b101fe528d956d73f17885ad02516fd7a182c5b4c9f2e9ee082aaeef6b6945dcbac092a9c5976233bb7661af27696221
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform@npm:0.4.84":
-  version: 0.4.84
-  resolution: "@goldstack/utils-terraform@npm:0.4.84"
+"@goldstack/utils-terraform@npm:0.4.85":
+  version: 0.4.85
+  resolution: "@goldstack/utils-terraform@npm:0.4.85"
   dependencies:
     "@goldstack/infra": "npm:0.4.41"
     "@goldstack/infra-aws": "npm:0.4.67"
@@ -1958,7 +1958,7 @@ __metadata:
     dotenv: "npm:^17.3.1"
     json-stable-stringify: "npm:^1.0.1"
     yargs: "npm:^17"
-  checksum: 10/cabe1acc80142b4fa1b3ffb734238227ca9f8dadec5181ddaf10fa52a82ae1a64ff69430eaaaec385da3fa0595c5fe581ddc05985a0e7b7efe5a21182101c72e
+  checksum: 10/e8c2729b257dc75daa630ab0923c730eb18fb7925d7058190b5fc6c8737239f098439f5954b70c5c3c956ab81ef4a1a0a211347c46c26edc167e3fd3e2fbcd2c
   languageName: node
   linkType: hard
 
@@ -7188,8 +7188,8 @@ __metadata:
   resolution: "s3-1@workspace:packages/s3-1"
   dependencies:
     "@aws-sdk/client-s3": "npm:^3.1004.0"
-    "@goldstack/template-s3": "npm:0.5.78"
-    "@goldstack/template-s3-cli": "npm:0.6.101"
+    "@goldstack/template-s3": "npm:0.5.79"
+    "@goldstack/template-s3-cli": "npm:0.6.102"
     "@smithy/smithy-client": "npm:^4.12.3"
     "@smithy/types": "npm:^4.13.0"
     "@swc/core": "npm:^1.15.8"
