@@ -113,11 +113,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:3.1124.0", {\
-        "packageLocation": "./.yarn/cache/@aws-sdk-client-s3-npm-3.1124.0-bb47c182d8-c0ef8626ff.zip/node_modules/@aws-sdk/client-s3/",\
+      ["npm:3.1125.0", {\
+        "packageLocation": "./.yarn/cache/@aws-sdk-client-s3-npm-3.1125.0-e9dceccba4-d3005bdf47.zip/node_modules/@aws-sdk/client-s3/",\
         "packageDependencies": [\
           ["@aws-sdk/checksums", "npm:3.1000.29"],\
-          ["@aws-sdk/client-s3", "npm:3.1124.0"],\
+          ["@aws-sdk/client-s3", "npm:3.1125.0"],\
           ["@aws-sdk/core", "npm:3.977.9"],\
           ["@aws-sdk/credential-provider-node", "npm:3.972.82"],\
           ["@aws-sdk/middleware-sdk-s3", "npm:3.972.75"],\
@@ -6856,7 +6856,7 @@ const RAW_RUNTIME_STATE =
       ["npm:6.1.16", {\
         "packageLocation": "./.yarn/cache/mock-aws-s3-v3-npm-6.1.16-48df8a4e44-a406ea2d49.zip/node_modules/mock-aws-s3-v3/",\
         "packageDependencies": [\
-          ["@aws-sdk/client-s3", "npm:3.1124.0"],\
+          ["@aws-sdk/client-s3", "npm:3.1125.0"],\
           ["@smithy/types", "npm:4.16.1"],\
           ["@types/sinon", "npm:17.0.4"],\
           ["aws-sdk-client-mock", "npm:4.1.0"],\
